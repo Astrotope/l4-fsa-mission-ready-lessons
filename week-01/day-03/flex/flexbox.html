@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- my cool comment -->
+<html>
+    <head>
+
+        <title>Flexbox</title>
+        <meta name="description" content="Flexbox Demo">
+
+        <style>
+            #main {
+                display: flex;
+                background-color: rgb(34, 56, 76);
+                justify-content: right;
+                align-items: center;
+                height: 50px;
+                flex-direction: row; /* column changes what affects the x-axis and y-axis */
+                gap: 10px;
+            }
+            .child-el1 {
+                background-color: rgb(187, 187, 216);
+            }
+            .child-el2 {
+                background-color: rgb(153, 172, 122);
+            }
+            .child-el3 {
+                background-color: rgb(163, 118, 99);
+            }
+            .child-el4 {
+                background-color: rgb(149, 98, 131);
+            }
+            .child-el5 {
+                background-color: rgb(135, 69, 82);
+            }
+
+            .box-size {
+                height: 30px;
+                width: 100px;
+                /* margin: 20px, 35px; */
+                align-items: center; /* Align flex children on the y-axis. Default stretch */
+                justify-content: space-evenly; /* Align flex children on the x-axis. Default flex-start. Also baseline, center, left, right, stretch, space-around, space-between */
+                display: flex; /* Flow the items in a row */
+                gap: 10px;
+            }
+            
+        </style>
+
+
+    </head>
+
+    <body>
+
+        <div id="main">
+            <div class="child-el1 box-size">My first div</div>
+            <div class="child-el2 box-size">My second div</div>
+            <div class="child-el3 box-size">My third div</div>
+            <div class="child-el4 box-size">My fourth div</div>
+            <div class="child-el5 box-size">My fifth div</div>
+        </div>
+
+    </body>
+
+</html>
+

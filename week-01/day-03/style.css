@@ -1,0 +1,232 @@
+/* Fancy Paragraph */
+.fancy-paragraph {
+  font-size: 1.2em; /* Increases font size slightly for better readability */
+  line-height: 1.6; /* Adds spacing between lines for improved readability */
+  color: #333; /* Sets a dark text color to contrast with the background */
+  background: linear-gradient(135deg, #f0f9ff, #cbebff); /* Applies a subtle background gradient */
+  padding: 15px 25px; /* Adds padding inside the paragraph for spacing around text */
+  border-radius: 12px; /* Rounds the corners for a softer, card-like effect */
+  
+  /* Gradient border styling */
+  border: 4px solid; /* Sets border width */
+  border-image-slice: 1; /* Ensures the gradient fills the entire border */
+  border-image-source: linear-gradient(45deg, #7873f5, #ff6ec4); /* Creates a colorful gradient border */
+  
+  /* Box shadow for depth */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a soft shadow for depth */
+  font-family: 'Roboto', sans-serif; /* Clean, modern font */
+  
+  
+  /* Transition for smooth hover effect */
+  transition: transform 0.3s ease; /* Smooth scaling on hover */
+
+  /* Adds margin to create spacing around the paragraph */
+  margin: 20px 50px; /* Vertical margin: 20px; Horizontal margin: 50px */
+}
+
+/* Hover effect for fancy paragraph */
+.fancy-paragraph:hover {
+  transform: scale(1.02); /* Slightly enlarges the paragraph on hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Intensifies shadow on hover */
+}
+
+/* Fancy Heading */
+.fancy-heading {
+  font-size: 3em; /* Large font size for emphasis */
+  font-weight: bold; /* Bold text for added impact */
+  
+  /* Gradient text styling */
+  background: linear-gradient(45deg, #ff6ec4, #7873f5); /* Color gradient for the text */
+  -webkit-background-clip: text; /* Clips the background to the text */
+  color: transparent; /* Hides the text color, revealing the gradient */
+  
+  /* Text shadow for depth */
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  
+  /* Smooth scaling transition */
+  transition: transform 0.3s ease, text-shadow 0.3s ease; /* Smooth scaling and shadow change */
+  
+  font-family: 'Roboto', sans-serif; /* Clean, modern font */
+  letter-spacing: 2px; /* Adds space between letters for a polished look */
+}
+
+/* Hover effect for fancy heading */
+.fancy-heading:hover {
+  transform: scale(1.05); /* Slightly enlarges the heading on hover */
+  text-shadow: 3px 6px 4px rgba(0, 0, 0, 0.3); /* Increases shadow for a more dynamic feel */
+}
+
+/* Base styling for both unordered and ordered lists */
+.fancy-list {
+  list-style: none; /* Removes default bullet points or numbers */
+  padding: 0; /* Removes default padding */
+  margin: 20px 0; /* Adds vertical margin for spacing */
+}
+
+/* List item styling */
+.fancy-list li {
+  position: relative; /* Allows positioning of custom bullets/numbers */
+  padding: 12px 18px 12px 50px; /* Adds extra left padding to accommodate bullets/numbers */
+  margin-bottom: 10px; /* Adds space between items */
+  border-radius: 8px; /* Rounds corners */
+  
+  /* Background and font styling */
+  background: linear-gradient(135deg, #f3e5f5, #e1bee7); /* Soft purple gradient */
+  color: #333; /* Text color */
+  font-family: 'Arial', sans-serif;
+  font-size: 1.1em;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow */
+}
+
+/* Custom bullet styling for unordered list */
+ul.fancy-list li::before {
+  content: "●"; /* Custom bullet symbol (solid circle) */
+  font-size: 1.5em; /* Larger bullet size */
+  color: #ff6ec4; /* Bullet color */
+  position: absolute;
+  left: 15px; /* Positions bullet to the left of text */
+  top: 50%; /* Centers bullet vertically */
+  transform: translateY(-50%); /* Adjusts for vertical alignment */
+}
+
+/* Custom number styling for ordered list */
+ol.fancy-list {
+  counter-reset: fancy-counter; /* Resets the counter for ordered list */
+}
+
+ol.fancy-list li {
+  counter-increment: fancy-counter; /* Increments counter for each item */
+}
+
+ol.fancy-list li::before {
+  content: counter(fancy-counter) ")"; /* Displays the number with a custom suffix */
+  font-size: 1.2em; /* Sets size of the number */
+  color: #7873f5; /* Number color */
+  font-weight: bold;
+  background: #e1bee7; /* Background for number circle */
+  border-radius: 50%; /* Creates circular background */
+  padding: 5px 10px; /* Pads around the number */
+  position: absolute;
+  left: 15px; /* Positions number to the left of text */
+  top: 50%; /* Centers number vertically */
+  transform: translateY(-50%); /* Adjusts for vertical alignment */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adds shadow around number */
+}
+
+/* Hover effect for both list types */
+.fancy-list li:hover {
+  background: linear-gradient(135deg, #e1bee7, #f3e5f5); /* Changes gradient on hover */
+  transform: translateX(5px); /* Slightly shifts item on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Increases shadow on hover */
+}
+
+/* Fancy styling for italic text */
+.fancy-italic {
+  font-style: italic; /* Ensures text is italicized */
+  font-weight: bold; /* Makes italic text more prominent */
+  font-size: 1.2em; /* Slightly larger font size for emphasis */
+  color: #ff6ec4; /* Base color for gradient */
+
+  /* Gradient text effect */
+  background: linear-gradient(45deg, #ff6ec4, #7873f5);
+  -webkit-background-clip: text; /* Clips background to text */
+  -webkit-text-fill-color: transparent; /* Makes text fill transparent to show gradient */
+
+  /* Shadow effect */
+  text-shadow: 1px 1px 5px rgba(255, 110, 196, 0.3), 
+               1px 1px 10px rgba(120, 115, 245, 0.4);
+  
+  /* Underline effect */
+  position: relative;
+}
+
+.fancy-italic::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: linear-gradient(45deg, #ff6ec4, #7873f5); /* Gradient underline */
+  border-radius: 2px;
+}
+
+/* Base styling for the fancy link */
+.fancy-link {
+  color: #ff6ec4; /* Base color for the link */
+  text-decoration: none; /* Remove default underline */
+  font-weight: bold; /* Make the link text bold */
+  font-size: 1.1em; /* Slightly larger font size */
+  position: relative; /* Position for underline effect */
+  transition: color 0.3s ease; /* Smooth color transition */
+  background: linear-gradient(45deg, #ff6ec4, #7873f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Gradient text effect */
+}
+
+/* Always visible gradient underline */
+.fancy-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Position slightly below the text */
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(45deg, #ff6ec4, #7873f5); /* Gradient underline */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+.fancy-link:hover {
+  color: #7873f5; /* Color change on hover */
+}
+
+/* Hover effect for underline */
+.fancy-link:hover::after {
+  background: linear-gradient(45deg, #7873f5, #ff6ec4); /* Reverse gradient on hover */
+  transform: scaleX(1.1); /* Slightly thicker underline on hover */
+}
+
+
+/* Animate the underline on hover */
+.fancy-link:hover::after {
+  transform: scaleX(1); /* Expands underline */
+  transform-origin: bottom left; /* Expands from the left */
+}
+
+/* Fancy image container styling */
+.fancy-image-container {
+  display: inline-block; /* Keeps the image inside the container while allowing text wrapping */
+  padding: 20px; /* Adds space around the image */
+  background-color: #ffffff; /* White background for the box */
+  border-radius: 15px; /* Rounds the corners of the container */
+  border: 5px solid #7873f5; /* Colored border (you can change the color) */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  overflow: hidden; /* Ensures the image fits inside the rounded corners */
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+/* Image styling inside the container */
+.fancy-image-container img {
+  display: block; /* Removes extra space below the image */
+  width: 100%; /* Makes image responsive */
+  height: auto; /* Maintains the aspect ratio */
+  border-radius: 10px; /* Rounds the image corners */
+  object-fit: cover; /* Ensures the image covers the entire container without distortion */
+}
+
+/* Hover effect for the container */
+.fancy-image-container:hover {
+  transform: scale(1.05); /* Slightly enlarges the image on hover */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Increases shadow on hover */
+}
+
+.centered-div {
+  text-align: center; /* Centers the content inside the div */
+}
+
+.centered-div-margin {
+  text-align: center; /* Centers the content inside the div */
+  margin: 20px 250px; /* Vertical margin: 20px; Horizontal margin: 50px */
+}
