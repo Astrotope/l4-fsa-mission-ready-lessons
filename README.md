@@ -40,6 +40,8 @@ PERN Stack Astronomy Image Pipeline Project [Project Log](https://github.com/Ast
   - games
     - [FlexBox Froggy](https://flexboxfroggy.com/)
     - [FlexBox Zombies](https://mastery.games/flexboxzombies/)
+  - Resources
+    - [30 jaw-dropping hero section examples from real websites](https://www.marketermilk.com/blog/hero-section-examples)
   - classes, id's
   - link stylesheets, & inline stylesheets
   - flex flow layout method
