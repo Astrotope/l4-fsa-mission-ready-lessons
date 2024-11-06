@@ -1,5 +1,11 @@
 # Mission Ready - Level 4 - Fullstack Accelerator - Lessons
 
+---
+
+PERN Stack Astronomy Image Pipeline Project [Project Log](https://github.com/Astrotope/l4-fsa-mission-ready-lessons/blob/main/PROJECT.md)
+
+---
+
 ## Week 01
 
 ### Day 01
