@@ -32,7 +32,7 @@
 ### Day 03
 
 - PERN Typescript AI Chat App - AI backed chat app, with PostgreSQL backend using Prisma ORM, and Typesript
-  - TODO: Setup repo for this and push it to githb.
+  - TODO: Setup repo for this and push it to githb. [Complete] [PERN - PostgreSQL, Express, React, Node - AI App](https://github.com/Astrotope/pern-ai-chat/tree/main)
   - Based on [PERN Stack Project: Build a Chat App From Scratch | Postgres, TypeScript, Prisma, React](https://youtu.be/vL24eiwAG_g?feature=shared)
     - Instaled the frontend and backend dependencies.
     - Used Vite for the frontend
