@@ -14,10 +14,10 @@
   - DocType
 - Afternoon - VSCode Extensions
   - Better Comments [Improve your code commenting by annotating with alert, informational, TODOs, and more!]
-    - <!-- ? Question/Qurey -->
-    - <!-- ! Depreciated -->
-    - <!-- * Important Info -->
-    - <!-- TODO: Rememben todo this -->
+    - ```<!-- ? Question/Qurey -->```
+    - ```<!-- ! Depreciated -->```
+    - ```<!-- * Important Info -->```
+    - ```<!-- TODO: Rememben todo this -->```
   - Live Server [Launch a development local Server with live reload feature for static & dynamic pages]
   - Live Share [Real-time collaborative development from the comfort of your favorite tools.]
   - Prettier [Opinionated code formatting.]
