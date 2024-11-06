@@ -64,7 +64,7 @@
       - column;
       - column-reverse;
     - flex-flow: (combines flex-direction & flex-wrap)
-      - <flex-direction> <flex-wrap>;
+      - ```<flex-direction> <flex-wrap>;```
     - order: (apply to element in container using a selector)
       - -2, 1, 0 (default), 1, 2
     - align-self: (apply to element in container using a selector)
