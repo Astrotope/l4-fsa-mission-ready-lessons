@@ -5,6 +5,8 @@
 ### Day 01
 
 - Orientation and 'h1' tag
+- Microsoft teams review
+- VSCode setup
 
 ### Day 02
 
