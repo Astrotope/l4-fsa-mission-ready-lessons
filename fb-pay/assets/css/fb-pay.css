@@ -1,0 +1,110 @@
+/* Basic reset for the page */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header container as a flexbox layout with three columns */
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Space out the columns */
+    align-items: center; /* Vertically align the columns in the center */
+    padding: 10px 20px; /* Padding around the header */
+    background-color: #f8f9fa; /* Light background */
+}
+
+/* Left column (empty for now) */
+.left-column {
+    flex: 1; /* This column takes up available space */
+}
+
+/* Center column with the heading */
+.center-column {
+    text-align: center; /* Center the heading */
+    flex: 2; /* This column takes up twice the space of the left and right columns */
+}
+
+.center-column h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Right column for navbar */
+.right-column {
+    display: flex;
+    justify-content: flex-end; /* Align navbar items to the right */
+}
+
+.right-column ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display items in a row */
+}
+
+.right-column li {
+    margin-left: 20px; /* Space between each navbar item */
+}
+
+.right-column a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.right-column a:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+/* Main content section with two sections below the header */
+.content-container {
+    display: flex; /* Flexbox layout for two containers */
+    justify-content: space-between; /* Space between the left and right sections */
+    padding: 20px; /* Padding around the content section */
+    background-color: #f1f1f1; /* Light background for the content section */
+}
+
+.left-section, .right-section {
+    flex: 1; /* Both sections will take equal space */
+    padding: 20px; /* Padding inside each section */
+    margin: 0 10px; /* Space between the left and right sections */
+    background-color: #ffffff; /* White background for the sections */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.left-section h2, .right-section h2 {
+    margin-top: 0; /* Remove top margin from headings */
+}
+
+.left-section p, .right-section p {
+    color: #333; /* Text color for content */
+}
+
+.chat-button {
+    background-color: #d1e7dd; /* Light bluish-grey background */
+    color: #000; /* Text color */
+    border: none; /* Remove default border */
+    /* border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside button */
+    margin-top: 10px; /* Space above the button */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s;
+}
+
+.chat-button:hover {
+    background-color: #c0e6d9; /* Darker shade on hover */
+}
+
+/* Social media icons styling */
+.social-media-icons {
+    margin-top: 15px; /* Space above the social media row */
+}
+
