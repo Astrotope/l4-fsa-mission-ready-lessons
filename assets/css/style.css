@@ -1,0 +1,115 @@
+header {
+    font-family: Tahoma;
+    font-weight: normal;
+}
+
+main{
+    font-family: Tahoma;
+    display: flex;
+    /* background-color: lightblue; */
+    align-items: center;
+    margin: 150px 100px;
+    padding: 0px;
+}
+
+#left {
+    /* background-color: lightgreen; */
+    margin: 30px 100px;
+}
+
+#right {
+    /* background-color: pink; */
+    margin: 30px 100px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px 100px;
+}
+
+.btn {
+    background-color: #d8e4ef;
+    text-align: center;
+    font-size: 16px;
+}
+
+a{
+    color: black; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+}
+
+.btn > a {
+    /* font-size: 0.70rem; */
+    color:rgb(34, 56, 76);
+    text-wrap: nowrap;
+}
+
+.nav-link {
+    list-style: none;
+    margin: 2px 5px;
+    padding: 8px 15px;
+}
+
+#left {
+    /* background-color: lightgreen; */
+    margin: 30px 100px;
+    width: 45%;
+}
+
+#right {
+    /* background-color: pink; */
+    width: 55%;
+    text-align: right;
+}
+
+.nav-link:hover {
+    background-color: #7d97cd;
+    color: white;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 40px
+}
+
+p {
+    margin: 35px 0px;
+}
+
+.chat-btn {
+    display: block;
+    margin: 20px 0px;
+    padding: 14px 25px;
+    width: 200px;
+    font-family: inherit;
+    font-weight: 700;
+    border: none;
+}
+
+.chat-btn:hover {
+    background-color: #7d97cd;
+    color: white;
+}
+
+#image {
+    width: 80%;
+}
+
+#right {
+    /* Existing code */
+    background-image: url("https://flipweb.org/wp-content/uploads/2019/11/Facebook-Pay.png"); height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right; 
+}
+
+span {
+    color: #396ee1;
+}
+
+
