@@ -10,12 +10,17 @@ PERN Stack Astronomy Image Pipeline Project [Project Log](https://github.com/Ast
 
 ### Day 01
 
+- Slides 
+  - [Orientation](https://github.com/Astrotope/l4-fsa-mission-ready-lessons/blob/eedd2e9214ec4c407e7a692ed46c3faeba264532/slides/Day%201.%20Orientation.pdf)
 - Orientation and 'h1' tag
 - Microsoft teams review
 - VSCode setup
 
 ### Day 02
 
+- Slides 
+  - [Welcome, Course Intro, Tools](https://github.com/Astrotope/l4-fsa-mission-ready-lessons/blob/eedd2e9214ec4c407e7a692ed46c3faeba264532/slides/Day%202A.%20Programming%20Intro%2C%20Internet%20intro%2C%20IDE%20-%20Reuben.pdf)
+  - [Introduction to HTML](https://github.com/Astrotope/l4-fsa-mission-ready-lessons/blob/eedd2e9214ec4c407e7a692ed46c3faeba264532/slides/Day%202B.%20Intro%20to%20HTML%20-%20Reuben.pdf)
 - HTML basics
   - html, head, & body tags
   - meta, & title tags
@@ -34,6 +39,9 @@ PERN Stack Astronomy Image Pipeline Project [Project Log](https://github.com/Ast
 
 ### Day 03
 
+- Slides
+  - [Introduction to CSS](https://github.com/Astrotope/l4-fsa-mission-ready-lessons/blob/main/slides/Day%203A.%20Intro%20to%20CSS%20-%20Reuben.pdf)
+  - [Page Structure and FB Pay](https://github.com/Astrotope/l4-fsa-mission-ready-lessons/blob/eedd2e9214ec4c407e7a692ed46c3faeba264532/slides/Day%203B.%20Page%20Structure%20and%20FB%20Pay%20-%20Reuben.pdf)
 - HTML
   - header, main, section, div tags
 - CSS
